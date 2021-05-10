@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P4Activity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <FrameLayout
+                        android:orientation="vertical"
+                        android:background="@color/pink"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <Button
+                        android:fontFamily="@font/binggrae"
+                        android:id="@+id/id1"
+                        android:text="0"
+                        android:textSize="50dp"
+                        android:background="@color/pink"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:id="@+id/text1"
+                            android:fontFamily="@font/binggrae"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30dp"
+                            android:text="name"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="20dp"/>
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:orientation="vertical"
+                        android:background="@color/orange"
+                        android:layout_weight="1"
+                        android:weightSum="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:fontFamily="@font/binggrae"
+                            android:layout_weight="1"
+                            android:id="@+id/id2"
+                            android:text="0"
+                            android:textSize="50dp"
+                            android:background="@color/orange"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+
+                        <TextView
+                            android:id="@+id/text2"
+                            android:fontFamily="@font/binggrae"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30dp"
+                            android:text="name"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="20dp"/>
+
+
+                    </FrameLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:fontFamily="@font/binggrae"
+                android:id="@+id/btnstart"
+                android:text="Start"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btnselect"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

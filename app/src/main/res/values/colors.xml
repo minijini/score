@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D9F1F1</color>
+    <color name="colorPrimaryDark">#B5E8E2</color>
+    <color name="colorAccent">#B1504C</color>
+    <color name="sky">#B5E8E2</color>
+    <color name="orange">#FACBBA</color>
+    <color name="pink">#FFB1B9</color>
+    <color name="mint">#7ADDD1</color>
+    <color name="pink2">#ffdddd</color>
+    <color name="sky2">#cbe7f6</color>
+    <color name="yellow">#FAF1D6</color>
+    <color name="yellow2">#FFD67A</color>
+    <color name="minus">#f29191</color>
+    <color name="plus">#d4dced</color>
+    <color name="actionbar_text">#0C0C0E</color>
+
+</resources>
